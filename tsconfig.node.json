@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".", 
+    "paths": {
+      "@components-bosons/": ["./src/components/bosons/"] // this mapping is relative to "baseUrl"
+    }
+  },
+  "include": ["vite.config.ts"]
+}
